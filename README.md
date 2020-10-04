@@ -1,3 +1,8 @@
+I am going to modify Magic Sorting System to fit the specific needs of my own server.
+
+
+Original ReadMe and License:
+
 # Overview
 
 ![Main Screenshot](https://pixlcore.com/software/mss/screenshots/v2/main-v2.png)
