@@ -1,4 +1,29 @@
-I am going to modify Magic Sorting System to fit the specific needs of my own server.
+I am modifying Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
+
+Changes:
+
+Now sorts 1 to 1, meaning that each item looks for an item frame containing itself.
+Added functions to support shulker-loading.
+Target item frames must have a tag as well as the item for matching to allow players to use item frames without conflict.
+Removed the lapis on gold pad, added:
+  target block on barrier - Item sorters
+  furnace on barrier - For super furnaces
+  blast furnace on barrier - for super smelters
+  smoker on barrier - for super smokers
+  coalblock on barrier - Fuel for 'super' smoker/furnace/blast furnace
+reduced function count
+
+Goals:
+
+Handle all item sorter needs
+Allow for sending items to a Furnace/Blast/Smoker array, including fuel
+Shulker-box loading for mass storage.
+
+What's working:
+
+1:1 sorting
+Shulker loading
+
 
 
 Original ReadMe and License:
