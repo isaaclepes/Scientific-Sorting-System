@@ -2,21 +2,26 @@
 # Thanks to: https://xisumavoid.com/vanillatweaks/
 # Called by: #minecraft:tick
 
-scoreboard players add #hc_tick hc_tick 1
+scoreboard players add #sss_tick sss_tick 1
 
 # Every 1 second
-execute if score #hc_tick hc_tick matches 1 run function #main:second
-execute if score #hc_tick hc_tick matches 21 run function #main:second
-execute if score #hc_tick hc_tick matches 41 run function #main:second
-execute if score #hc_tick hc_tick matches 61 run function #main:second
-execute if score #hc_tick hc_tick matches 81 run function #main:second
+execute if score #sss_tick sss_tick matches 1 run function #main:second
+execute if score #sss_tick sss_tick matches 21 run function #main:second
+execute if score #sss_tick sss_tick matches 41 run function #main:second
+execute if score #sss_tick sss_tick matches 61 run function #main:second
+execute if score #sss_tick sss_tick matches 81 run function #main:second
 
 # Every 1 second just after previous tick (cooldown)
-execute if score #hc_tick hc_tick matches 2 if score #mss_cooldown mss_cooldown matches 1 run function mss:cleanup
-execute if score #hc_tick hc_tick matches 22 if score #mss_cooldown mss_cooldown matches 1 run function mss:cleanup
-execute if score #hc_tick hc_tick matches 42 if score #mss_cooldown mss_cooldown matches 1 run function mss:cleanup
-execute if score #hc_tick hc_tick matches 62 if score #mss_cooldown mss_cooldown matches 1 run function mss:cleanup
-execute if score #hc_tick hc_tick matches 82 if score #mss_cooldown mss_cooldown matches 1 run function mss:cleanup
+execute if score #sss_tick sss_tick matches 2 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
+execute if score #sss_tick sss_tick matches 22 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
+execute if score #sss_tick sss_tick matches 42 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
+execute if score #sss_tick sss_tick matches 62 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
+execute if score #sss_tick sss_tick matches 82 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
+
+# Run other
+execute if score #sss_tick sss_tick matches 10 run function sss:fullchecker
+execute if score #sss_tick sss_tick matches 85 run function sss:missingchecker
+
 
 # Reset at 100
-execute if score #hc_tick hc_tick matches 100.. run scoreboard players set #hc_tick hc_tick 0
+execute if score #sss_tick sss_tick matches 100.. run scoreboard players set #sss_tick sss_tick 0
