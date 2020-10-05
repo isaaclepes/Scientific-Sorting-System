@@ -20,6 +20,7 @@ execute if score #sss_tick sss_tick matches 82 if score #sss_cooldown sss_cooldo
 
 # Run other
 execute if score #sss_tick sss_tick matches 10 run function sss:fullchecker
+execute if score #sss_tick sss_tick matches 40 run function sss:tagger
 execute if score #sss_tick sss_tick matches 85 run function sss:missingchecker
 
 
