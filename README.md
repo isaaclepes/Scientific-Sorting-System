@@ -1,5 +1,33 @@
 I am modifying Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
 
+How to build the drop areas
+
+Place blocks in configuration shown
+
+<img src="https://media.minecraftforum.net/attachments/320/134/637375291128899415.PNG">
+<br />
+Column 1 - Sends items to Sort Target<br />
+Column 2 - Sends items to Smelt Target<br />
+Column 3 - Sends items to Smelt Fuel<br />
+Column 4 - Sends items to Furnace Target<br />
+Column 5 - Sends items to Furnace Fuel<br />
+Column 6 - Sends items to Smoker Target<br />
+Column 7 - Sends items to Smoker Fuel
+<br /><br />
+Fuels will accept any items that are burnable.<br />
+Furnaces / Smelter / Smoker will only accept items that can be processed<br />
+Sort Target will only accept items obtainable in survivial mode (Note, I may have overlooked a couple creative inventory items.  Please let me know.)<br /><br />
+
+Use /function sss:kit to receive named command blocks needed to set item frame tags.
+
+Place a command block in an item frame and it will become a target based on the name of the command block.
+
+The command block only needs to be installed for 5 seconds. Any other targeting tags are removed when you switch command blocks.
+
+After 5 seconds, you may remove the command block.  Removing the command block is only required for Sort Targets, becuase you need to place the item to sort in them after tagging.
+
+
+
 Changes:
 
 Now sorts 1 to 1, meaning that each item looks for an item frame containing itself.
