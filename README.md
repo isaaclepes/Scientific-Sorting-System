@@ -26,7 +26,9 @@ The command block only needs to be installed for 5 seconds. Any other targeting 
 
 After 5 seconds, you may remove the command block.  Removing the command block is only required for Sort Targets, becuase you need to place the item to sort in them after tagging.
 
+<img src="https://media.minecraftforum.net/attachments/320/132/637375139988464179.PNG">
 
+How to build modules.  These can be placed facing North, South, East, or West.
 
 Changes:
 
