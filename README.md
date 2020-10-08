@@ -1,8 +1,15 @@
-I am modifying Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
+This is a Heavliy modified fork of Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
 
 How to build the drop areas
+Items used:<br>
+Barrier Block<br>
+Target Block<br>
+Coal Block<br>
+Furnace<br>
+Blast Furnace<br>
+Smoker<br>
 
-Place blocks in configuration shown
+Place blocks in configuration shown:<br>
 
 <img src="https://media.minecraftforum.net/attachments/320/134/637375291128899415.PNG">
 <br />
@@ -15,7 +22,7 @@ Column 6 - Sends items to Smoker Target<br />
 Column 7 - Sends items to Smoker Fuel
 <br /><br />
 Fuels will accept any items that are burnable.<br />
-Furnaces / Smelter / Smoker will only accept items that can be processed<br />
+Furnaces / Smelter / Smoker will only accept items that can be processed by their particular varient<br />
 Sort Target will only accept items obtainable in survivial mode (Note, I may have overlooked a couple creative inventory items.  Please let me know.)<br /><br />
 
 Use /function sss:kit to receive named command blocks needed to set item frame tags.
