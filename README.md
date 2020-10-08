@@ -1,6 +1,7 @@
 This is a Heavliy modified fork of Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
 
 How to build the drop areas
+
 Items used:<br>
 Barrier Block<br>
 Target Block<br>
@@ -44,6 +45,7 @@ Now sorts 1 to 1, meaning that each item looks for an item frame containing itse
 Added functions to support shulker-loading.
 
 Target item frames must have a tag as well as the item for matching to allow players to use item frames without conflict.
+Multiple target frames for the same item behave as previously, they split between them using sort=random.
 
 Removed the lapis on gold pad, added:
 
@@ -57,22 +59,8 @@ Removed the lapis on gold pad, added:
   
   coalblock on barrier - Fuel for 'super' smoker/furnace/blast furnace
   
-reduced function count
-
-Goals:
-
-Handle all item sorter needs
-
-Allow for sending items to a Furnace/Blast/Smoker array, including fuel
-
-Shulker-box loading for mass storage.
-
-What's working:
-
-1:1 sorting
-
-Shulker loading
-
+Added functionality for shulker box loader.  Not required for sorting, but together can
+make a system that stores filled shulker boxes
 
 
 
