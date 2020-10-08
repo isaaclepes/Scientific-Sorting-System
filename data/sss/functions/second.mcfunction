@@ -11,3 +11,5 @@ execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:smoker if block ~ ~-2 
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:furnace if block ~ ~-3 ~ minecraft:barrier run function sss:fuelfurnace
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:blast_furnace if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmelt
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:smoker if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmoker
+
+execute run function sss:modsupport
