@@ -23,6 +23,5 @@ execute if score #sss_tick sss_tick matches 10 run function sss:fullchecker
 execute if score #sss_tick sss_tick matches 40 run function sss:tagger
 execute if score #sss_tick sss_tick matches 85 run function sss:missingchecker
 
-
 # Reset at 100
 execute if score #sss_tick sss_tick matches 100.. run scoreboard players set #sss_tick sss_tick 0

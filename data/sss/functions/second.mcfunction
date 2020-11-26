@@ -12,4 +12,7 @@ execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ 
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:blast_furnace if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmelt
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:smoker if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmoker
 
+# Kill Empty Warehouse Crates
+execute as @e if entity @s[type=item,nbt={Item:{tag:{display:{Name:"{\"text\":\"Warehouse Crate\"}"},BlockEntityTag:{Items:[]}}}}] run kill @s
+
 execute run function sss:modsupport
