@@ -3,6 +3,7 @@
 # Called by: #minecraft:tick
 
 scoreboard players add #sss_tick sss_tick 1
+
 # Capture Items Before Deletion
 execute as @e[type=item,nbt={Age:2000s}] at @s run function sss:capture
 
