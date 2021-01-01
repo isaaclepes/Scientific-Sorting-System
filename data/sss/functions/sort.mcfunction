@@ -900,3 +900,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_stained_gla
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_terracotta"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:yellow_terracotta"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_wool"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:yellow_wool"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:zombie_head"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:zombie_head"}}]
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:barrier run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{tag:{display:{Name:'{"text":"Catch All"}'}}}}]
+execute as @e[type=item] at @s if block ~ ~-2 ~ minecraft:target if block ~ ~-3 ~ minecraft:barrier run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{tag:{display:{Name:'{"text":"Catch All"}'}}}}]
+
