@@ -7,3 +7,4 @@ give @s target{display:{Name:'{"text":"Furnace Target"}'}} 64
 give @s target{display:{Name:'{"text":"Furnace Fuel"}'}} 64
 give @s target{display:{Name:'{"text":"Smoker Target"}'}} 64
 give @s target{display:{Name:'{"text":"Smoker Fuel"}'}} 64
+give @s target{display:{Name:'{"text":"Catch All"}'}} 64
