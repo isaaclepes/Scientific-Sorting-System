@@ -5,10 +5,12 @@
 # Tick Counter Scoreboard + 1
 scoreboard players add #sss_tick sss_tick 1
 
-# Capture Items Before Deletion (~2 minutes)
-execute as @e[type=item,nbt={Age:2400s}] at @s run function sss:capture
+
+# Capture Items Before Deletion
+execute as @e[type=item,nbt={Age:2000s}] at @s run function sss:capture
 
 # Every 1 second (20 ticks)
+
 execute if score #sss_tick sss_tick matches 1 run function #main:second
 execute if score #sss_tick sss_tick matches 21 run function #main:second
 execute if score #sss_tick sss_tick matches 41 run function #main:second
