@@ -19,6 +19,3 @@ execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ 
         # Sometimes player may pick up box before it is deleted. Especially when server is behind on ticks.
         # Only works if shulker box has not been renamed.  A tag would be better, but tags do not appear to stay when item becomes a block again.
 execute as @e if entity @s[type=item,nbt={Item:{tag:{display:{Name:"{\"text\":\"Warehouse Crate\"}"},BlockEntityTag:{Items:[]}}}}] run kill @s
-
-# Small hook for mod support.
-execute run function sss:modsupport
