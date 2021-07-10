@@ -1,3 +1,7 @@
+Note: This readme needs updated for changes made in the last 2 updates.  I will do my best to get it revamped as soon as possible.
+
+
+
 This is a Heavliy modified fork of Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
 
 How to build the drop areas
