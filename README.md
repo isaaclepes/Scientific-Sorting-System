@@ -13,11 +13,11 @@ How to build the drop areas
 Block placement configurations for drop areas.<br />
 Note: Sandstone can be substituted for any other bloock.
 
-**Sorting Pad.**
-![image](https://user-images.githubusercontent.com/54421422/126387916-37d64f4b-f2a1-41fe-8c80-5d962327189f.png)
+**Sorting Pad.**<br /><br />
+![image](https://user-images.githubusercontent.com/54421422/126387916-37d64f4b-f2a1-41fe-8c80-5d962327189f.png)<br />
 ![image](https://user-images.githubusercontent.com/54421422/126388878-1423ec14-d181-4301-9f35-140fb8d3130e.png)
-
-**Super Smelter/Cooker support. Pad configuration is displayed behind the cookers.**
+<br /><br />
+**Super Smelter/Cooker support. Pad configuration is displayed behind the cookers.**<br /><br />
 ![image](https://user-images.githubusercontent.com/54421422/126388259-f1a21d56-126b-4dec-85eb-bcbc22713eef.png)
 <br /><br />
 Fuels will accept any items that are burnable.<br />
@@ -34,17 +34,17 @@ The target block only needs to be installed for 5 seconds. Any other targeting t
 
 After 5 seconds, you may remove the target block.  Removing the command block is only required for Sort Targets, becuase you need to place the item to sort in them after tagging.
 
-**Shulkerbox loading modules**.
-![image](https://user-images.githubusercontent.com/54421422/126388406-acfcabb2-2238-4206-8416-179c7c521196.png)
+**Shulkerbox loading modules**.<br /><br />
+![image](https://user-images.githubusercontent.com/54421422/126388406-acfcabb2-2238-4206-8416-179c7c521196.png)<br /><br />
 These can be placed facing North, South, East, or West and are designed to be tileable.
 The target item frames are on the upper hoppers.
 The item frames near the comparators are tagged with 'shulker target'
 Chests, planks, and slabs can be swapped out as desired.
 
-The datapack checks for the position and power level of the comparitor.  When at maximum power, because the shulker box is full, a redstone block is placed to trigger the piston above.  This shows image shows this occuring with piston missing.
-![image](https://user-images.githubusercontent.com/54421422/126388603-11f1ce07-83a3-4dad-b7f7-8376524e638d.png)
-And this image shows the piston pushing the shulker box into the hopper
-  ![image](https://user-images.githubusercontent.com/54421422/126388811-ae7ab629-81ad-44d5-84ab-124f3a7b4c18.png)
+The datapack checks for the position and power level of the comparitor.  When at maximum power, because the shulker box is full, a redstone block is placed to trigger the piston above.  This shows image shows this occuring with piston missing.<br /><br />
+![image](https://user-images.githubusercontent.com/54421422/126388603-11f1ce07-83a3-4dad-b7f7-8376524e638d.png)<br /><br />
+And this image shows the piston pushing the shulker box into the hopper<br /><br />
+  ![image](https://user-images.githubusercontent.com/54421422/126388811-ae7ab629-81ad-44d5-84ab-124f3a7b4c18.png)<br /><br />
 
 Brown Shulker Boxes named "Warehouse Crate" are automatically generated in front of the comparator if the block is air.  Empty Warehouse Crates are removed from the game if dropped as an item.
   
