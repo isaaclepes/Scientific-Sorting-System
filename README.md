@@ -1,7 +1,3 @@
-Note: This readme needs updated for changes made in the last 2 updates.  I will do my best to get it revamped as soon as possible.
-
-
-
 This is a Heavliy modified fork of Magic Sorting System to fit the specific needs of my own server.  I have renamed this version to Scientific Sorting System, because it is going to get technical.
 
 How to build the drop areas
@@ -17,19 +13,19 @@ How to build the drop areas
 Block placement configurations for drop areas.<br />
 Note: Sandstone can be substituted for any other bloock.
 
-<h2>Sorting Pad.</h2>
+**Sorting Pad.**
 ![image](https://user-images.githubusercontent.com/54421422/126387916-37d64f4b-f2a1-41fe-8c80-5d962327189f.png)
 ![image](https://user-images.githubusercontent.com/54421422/126388878-1423ec14-d181-4301-9f35-140fb8d3130e.png)
 
-<h2>Super Smelter/Cooker support. Pad configuration is displayed behind the cookers.</h2.
+**Super Smelter/Cooker support. Pad configuration is displayed behind the cookers.**
 ![image](https://user-images.githubusercontent.com/54421422/126388259-f1a21d56-126b-4dec-85eb-bcbc22713eef.png)
 <br /><br />
 Fuels will accept any items that are burnable.<br />
 Furnaces / Smelter / Smoker will only accept items that can be processed by their particular varient<br />
 Sort Target will only accept items obtainable in survivial mode (Note, I may have overlooked a couple creative inventory items.  Please let me know.)<br /><br />
 
-Use /function sss:kit to receive named target blocks needed to set item frame tags.
-
+**Use /function sss:kit to receive named target blocks needed to set item frame tags.
+**
 See this video for a demonstration: https://youtu.be/hL7xJ0zZEuI  (Apologies, I didn't have a microphone when I made this video.)
 
 Place a target block in an item frame and the frame will become a target based on the name of the target block.  For example, "Sort Target" will tag an item frame as the destination for sorting. Remove the target block from the frame and replace with the item you wish to be deposited at this item frame.
