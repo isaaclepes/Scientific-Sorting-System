@@ -7,3 +7,4 @@ tag @s remove sss_furnace_target
 tag @s remove sss_smelt_fuel
 tag @s remove sss_smoker_fuel
 tag @s remove sss_furnace_fuel
+tag @s remove sss_catchall

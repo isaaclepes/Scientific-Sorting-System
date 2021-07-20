@@ -3,7 +3,7 @@ tag @s remove sss_sort_target
 tag @s remove sss_smelt_target
 tag @s remove sss_smoker_target
 tag @s remove sss_furnace_target
-tag @s remove sss_furnace_fuel
+tag @s remove sss_smelt_fuel
 tag @s remove sss_smoker_fuel
-tag @s add sss_smelt_fuel
-tag @s remove sss_catchall
+tag @s remove sss_furnace_fuel
+tag @s add sss_catchall

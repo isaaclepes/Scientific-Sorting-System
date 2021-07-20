@@ -1016,8 +1016,5 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copp
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copper_stairs"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:weathered_cut_copper_stairs"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:white_candle"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:yellow_candle"}}]
-## Catch All Sorting
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:barrier run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{tag:{display:{Name:'{"text":"Catch All"}'}}}}]
-execute as @e[type=item] at @s if block ~ ~-2 ~ minecraft:target if block ~ ~-3 ~ minecraft:barrier run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{tag:{display:{Name:'{"text":"Catch All"}'}}}}]
-
-
+## Catch All Sorting, if none of the above succeeded, attempt to send item to item frame tagged with Catch All
+execute as @s if entity @s[type=item] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target]

@@ -7,3 +7,4 @@ execute as @e[type=minecraft:item_frame,tag=!sss_smoker_target,nbt={Item:{tag:{d
 execute as @e[type=minecraft:item_frame,tag=!sss_furnace_fuel,nbt={Item:{tag:{display:{Name:'{"text":"Furnace Fuel"}'}}}}] run function sss:targetfuelfurnace
 execute as @e[type=minecraft:item_frame,tag=!sss_smelt_fuel,nbt={Item:{tag:{display:{Name:'{"text":"Smelt Fuel"}'}}}}] run function sss:targetfuelsmelt
 execute as @e[type=minecraft:item_frame,tag=!sss_smoker_fuel,nbt={Item:{tag:{display:{Name:'{"text":"Smoker Fuel"}'}}}}] run function sss:targetfuelsmoker
+execute as @e[type=minecraft:item_frame,tag=!sss_smoker_fuel,nbt={Item:{tag:{display:{Name:'{"text":"Catch All"}'}}}}] run function sss:targetcatchall

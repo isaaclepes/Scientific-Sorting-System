@@ -3,16 +3,16 @@
 # Called by tick function
 
 # Primary routine
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:barrier run function sss:sort
-execute as @e[type=item] at @s if block ~ ~-2 ~ minecraft:target if block ~ ~-3 ~ minecraft:barrier run function sss:sort
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:amethyst_block run function sss:sort
+execute as @e[type=item] at @s if block ~ ~-2 ~ minecraft:target if block ~ ~-3 ~ minecraft:amethyst_block run function sss:sort
 
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:blast_furnace if block ~ ~-2 ~ minecraft:barrier run function sss:smelt
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:furnace if block ~ ~-2 ~ minecraft:barrier run function sss:furnace
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:smoker if block ~ ~-2 ~ minecraft:barrier run function sss:smoker
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:blast_furnace if block ~ ~-2 ~ minecraft:amethyst_block run function sss:smelt
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:furnace if block ~ ~-2 ~ minecraft:amethyst_block run function sss:furnace
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:smoker if block ~ ~-2 ~ minecraft:amethyst_block run function sss:smoker
 
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:furnace if block ~ ~-3 ~ minecraft:barrier run function sss:fuelfurnace
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:blast_furnace if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmelt
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:smoker if block ~ ~-3 ~ minecraft:barrier run function sss:fuelsmoker
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:furnace if block ~ ~-3 ~ minecraft:amethyst_block run function sss:fuelfurnace
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:blast_furnace if block ~ ~-3 ~ minecraft:amethyst_block run function sss:fuelsmelt
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:coal_block if block ~ ~-2 ~ minecraft:smoker if block ~ ~-3 ~ minecraft:amethyst_block run function sss:fuelsmoker
 
 # Kill Empty Warehouse Crates to prevent infinite shulker boxes
     #Known issues:
