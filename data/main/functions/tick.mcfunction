@@ -25,7 +25,8 @@ execute if score #sss_tick sss_tick matches 62 if score #sss_cooldown sss_cooldo
 execute if score #sss_tick sss_tick matches 82 if score #sss_cooldown sss_cooldown matches 1 run scoreboard players set #sss_cooldown sss_cooldown 0
 
 # Run other
-
+    # Catch all
+execute if score #sss_tick sss_tick matches 2 run function sss:catchall
     # Checks the comparator of the shulker box loader to determine when to fire the piston
 execute if score #sss_tick sss_tick matches 10 run function sss:fullchecker
     # Checks for named items in frames for applying frame tags
