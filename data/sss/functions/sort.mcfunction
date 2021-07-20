@@ -1017,4 +1017,4 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copp
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:white_candle"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:yellow_candle"}}]
 ## Catch All Sorting, if none of the above succeeded, attempt to send item to item frame tagged with Catch All
-execute as @s if entity @s[type=item] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target]
+execute as @s run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_catchall]
