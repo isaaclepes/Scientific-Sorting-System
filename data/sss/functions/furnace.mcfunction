@@ -102,6 +102,9 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_log"}}] run
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:spruce_wood"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
 execute as @s if entity @s[type=item,nbt={Item:{id:"stripped_minecraft:spruce_log"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
 execute as @s if entity @s[type=item,nbt={Item:{id:"stripped_minecraft:spruce_wood"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
+# 1.19
+execute as @s if entity @s[type=item,nbt={Item:{id:"stripped_minecraft:mangrove_log"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
+execute as @s if entity @s[type=item,nbt={Item:{id:"stripped_minecraft:mangrove_wood"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
 
 # Dyes
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:cactus"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_furnace_target]
