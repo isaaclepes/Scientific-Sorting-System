@@ -1017,3 +1017,5 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copp
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copper_stairs"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:weathered_cut_copper_stairs"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:white_candle"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:yellow_candle"}}]
+# 1.18
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_otherside"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..256,tag=sss_sort_target,nbt={Item:{id:"minecraft:music_disc_otherside"}}]
