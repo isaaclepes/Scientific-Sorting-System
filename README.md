@@ -61,15 +61,15 @@ Multiple target frames for the same item behave as previously, they split betwee
 
 Removed the lapis on gold pad, added:
 
-  target block on barrier - Item sorters
+  target block on amethyst block - Item sorters
   
-  furnace on barrier - For super furnaces
+  furnace on amethyst block - For super furnaces
   
-  blast furnace on barrier - for super smelters
+  blast furnace on amethyst block - for super smelters
   
-  smoker on barrier - for super smokers
+  smoker on amethyst block - for super smokers
   
-  coalblock on barrier - Fuel for 'super' smoker/furnace/blast furnace
+  coalblock on amethyst block - Fuel for 'super' smoker/furnace/blast furnace
   
 Added functionality for shulker box loader.  Not required for sorting, but together can
 make a system that stores filled shulker boxes
